@@ -402,7 +402,7 @@ position: relative;
 
 
 .service{
-    padding:50px 100px;
+    padding:50px;
     background-color: #ebe9eb;;
     text-align: center;
 }
@@ -420,7 +420,7 @@ font-size: 14px;
     display: grid;
     margin: 50px 0px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:250px;
+    grid-template-rows:300px;
     background: url(images/home.jpg);
     background-size: cover;
 }
@@ -438,7 +438,7 @@ font-size: 14px;
 
 .a1 a
 {display: block;
-    margin-top: 70px;
+    margin-top: 60px;
     color: #999999;
     font-size: 16px;
 }
