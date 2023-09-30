@@ -27,7 +27,6 @@ a {
     padding: 0px 20px;
 
 
-
 }
 
 
@@ -221,21 +220,22 @@ span {
 
 
 .slid1 p {
-    font-size: 25px;
+    font-size: 15px;
     padding-top: 10px;
     color: #007aff;
 
 }
+.slid1 h1{
+    font-size: 20px;
+}
 
 
 .photos {
-    /* height: 400px; */
     width: 100%;
     overflow: hidden;
 }
 
 .photos img {
-    /* height: 400px; */
     width:100%;
     object-fit: cover;
     transition: 3s;
@@ -257,10 +257,10 @@ span {
     text-align: center;
 }
 
-
+/* 
 .w1 p {
     font-size: 20px;
-}
+} */
 
 
 .w1 h1 {
@@ -271,15 +271,18 @@ span {
 /* contact**********8 */
 
 .contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    
     background: url(imag/overlay-bg.jpg);
-    background-attachment: fixed;
-    padding: 100px;
+    background-attachment:fixed;
     filter: grayscale(-12);
 }
 
+.contact2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px; 
 
+}
  .contact input{
     width: 80%;
     height: 40px;
@@ -295,7 +298,7 @@ input:focus {
 
 .sms,
 .sms2 {
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
     background-color: white;
 
 }
@@ -307,8 +310,10 @@ input:focus {
 
 
 .sms2 {
-    text-align: left;
     line-height: 1.6;
+    text-align: left;
+    padding:0px 50px;
+
 
 }
 
@@ -349,8 +354,6 @@ button {
 .up i{
 font-size: 100px;
 text-align: right;
-/* padding: 20px; */
-/* color: white; */
 border-radius: 50%;
 background:#6caaec;
 }

@@ -15,7 +15,9 @@
         grid-template-rows:repeat(2,600px);
 
     }
+
 }
+
 
 
 /* 900*** */
@@ -51,7 +53,6 @@
 }
 
 
-.desing,
 .news-efect,
 .mail
 {
@@ -60,15 +61,17 @@
 }
 
 
-.icon
+.icon,
+.ftr
 {
     grid-template-columns: 1fr 1fr;
 
 }
 
-.ftr{
-    grid-template-columns: 1fr 1fr;
 
+.desing{
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr;
 }
 
 
@@ -93,8 +96,7 @@
 }
 
 
-
-/* min*******88 */
+/******min*******88 */
 
 
 @media(min-width:930px)
@@ -111,7 +113,8 @@
 {
 
     .img-effect,
-    .pro
+    .pro,
+    .desing
 {
     grid-template-columns: 1fr;
 }

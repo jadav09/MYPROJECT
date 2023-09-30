@@ -10,7 +10,7 @@
 {
     .slid,
     .about,
-    .contact,
+    .contact2,
     .task1
     {
         grid-template-columns: 1fr;
@@ -20,8 +20,15 @@
 
 
 
-@media(max-width:600px){
+@media(max-width:700px){
     .abt1{
         grid-template-columns: 1fr;
+    }
+    .contact2{
+        padding: 0;
+    }
+    .nav ul li{
+        display: block;
+        text-align: center;
     }
 }
